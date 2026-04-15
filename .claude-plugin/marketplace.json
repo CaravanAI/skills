@@ -1,0 +1,55 @@
+{
+  "name": "caravan-skills",
+  "owner": {
+    "name": "Caravan",
+    "email": "brandon@thecaravan.ai"
+  },
+  "metadata": {
+    "description": "Finance, AR, invoicing, and operations skills for the Caravan team",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "caravan-ar",
+      "source": "./caravan-ar",
+      "description": "Track outstanding invoices, collections, and overdue accounts across Stripe and Mercury",
+      "category": "productivity",
+      "tags": ["finance", "accounting", "ar"]
+    },
+    {
+      "name": "caravan-finance",
+      "source": "./caravan-finance",
+      "description": "Financial operations reference: Mercury, Stripe, Puzzle, Notion integrations",
+      "category": "productivity",
+      "tags": ["finance", "accounting"]
+    },
+    {
+      "name": "caravan-invoicing",
+      "source": "./caravan-invoicing",
+      "description": "Create and send Stripe invoices for training clients — deposit and final billing",
+      "category": "productivity",
+      "tags": ["finance", "invoicing", "stripe"]
+    },
+    {
+      "name": "caravan-monthly-close",
+      "source": "./caravan-monthly-close",
+      "description": "Run monthly financial close, reconcile Mercury and Stripe, produce P&L",
+      "category": "productivity",
+      "tags": ["finance", "accounting", "close"]
+    },
+    {
+      "name": "caravan-receipts",
+      "source": "./caravan-receipts",
+      "description": "Process expense receipts from Walt's inbox and record them in Puzzle",
+      "category": "productivity",
+      "tags": ["finance", "expenses", "receipts"]
+    },
+    {
+      "name": "cc-setup-guide",
+      "source": "./cc-setup-guide",
+      "description": "Claude Code setup guide for new Caravan team members",
+      "category": "productivity",
+      "tags": ["onboarding", "setup"]
+    }
+  ]
+}
